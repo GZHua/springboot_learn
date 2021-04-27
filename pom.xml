@@ -13,6 +13,7 @@
     <modules>
         <module>springboot_algorithm</module>
         <module>springboot_office</module>
+        <module>springboot_mybatis_jpa</module>
     </modules>
 
     <groupId>com.ggunlics</groupId>
@@ -57,6 +58,13 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+
+        <!-- hutool -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.5.7</version>
         </dependency>
 
         <!-- junit test -->

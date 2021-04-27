@@ -17,6 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <poi.version>4.1.2</poi.version>
+        <itext.version>7.1.14</itext.version>
     </properties>
 
     <dependencies>
@@ -46,6 +47,32 @@
             <version>${poi.version}</version>
         </dependency>
         <!-- POI End -->
+
+        <!-- HTML TO PDF -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>kernel</artifactId>
+            <version>${itext.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>layout</artifactId>
+            <version>${itext.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>font-asian</artifactId>
+            <version>${itext.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>html2pdf</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!-- HTML TO PDF END-->
 
     </dependencies>
 

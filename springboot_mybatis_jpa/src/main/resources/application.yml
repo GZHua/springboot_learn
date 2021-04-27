@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: mybatis_jpa
+  datasource:
+    name: defaultDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+logging:
+  level:
+    com.ggunlics.demo.modules.test: debug
